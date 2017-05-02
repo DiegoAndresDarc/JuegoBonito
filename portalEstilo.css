@@ -1,0 +1,83 @@
+body{
+    background:#000000 url('image/fondo1.jpg') no-repeat right center;
+}
+header nav {
+    width: 80%;
+    margin: 20px auto;
+    background:  #528FD5;
+    overflow: hidden; /*ocultar contenido de contenedor*/
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul a{
+    padding: 10px 20px;
+    display: block; /*sirve con padding*/
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+
+.main{
+    width: 100%;
+    margin: auto;
+    max-width: 5000px;
+    background: #fff;
+}
+
+.main .articles{
+    float: left;
+    background: #000000;
+    margin-right: 2%; 
+}
+
+aside{
+	background:url('image/fondo2.png');
+    width: 300px;
+	height: 150px;
+	text-align: center;
+    float: left; 
+
+}
+
+form,h1{
+    text-align: center;
+}
+.Menu{
+   width: 90%;
+   margin: auto;
+   max-width: 1000px;
+   background: #fff;
+}
+
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+  float: inside;
+}
+nav ul a{
+    padding: 5px 10px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background: rgb( 224,192,95);
+}
+
+canvas {
+	background:url('image/fondo.jpg');
+	border:2px solid;
+	border-color:#ffffff;
+}
+
+#derecha,#izquierda,#sentado,#golpe,#normal,#mina,#portal {
+	display:none;
+}
